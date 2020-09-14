@@ -3,8 +3,26 @@ import styled from "styled-components";
 import { HiOutlineMail } from "react-icons/hi";
 import { BiPhone } from "react-icons/bi";
 import { IconContext } from "react-icons";
+import { useWindowSize } from './helpers/Window'
+
 
 function Contact() {
+	const { isMobile } = useWindowSize()
+	if (isMobile) {
+		return (
+			<WrapperM>
+				<HeaderM id="contact">Contact Us</HeaderM>
+				<DivM>
+					<InfoNameM>Sheila Whalen</InfoNameM>
+					<Click>Click on one of the links below to get in touch with us!</Click>
+					<InfoM>
+					<InfoEmailM href={`mailto:swhaler@realtalw.com`}>swhaler@realtalw.com</InfoEmailM>
+					<InfoPhoneM href={`tel:5147333223`}>(514) 733-3223</InfoPhoneM>
+					</InfoM>
+				</DivM>
+			</WrapperM>
+		)
+	}
 	return (
 		<>
 			<IconContext.Provider
@@ -59,6 +77,43 @@ const Div = styled.div`
 	display: flex;
 	flex-direction: column;
 	
+`;
+
+const WrapperM = styled.div`
+	font-family: "Sora", sans-serif;
+	color: #39683c;
+	margin-top: 8px;
+	border-bottom: 1px solid #39683c;
+
+`;
+
+const HeaderM = styled.div`
+	padding-left: 8px;
+	font-size: 22px;
+`;
+
+const DivM = styled.div``;
+
+const InfoNameM = styled.p`
+	text-align: center;
+	font-size: 20px;
+`;
+
+const InfoEmailM = styled.a``;
+
+const InfoPhoneM = styled.a``;
+
+const InfoM = styled.div`
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 8px;
+`;
+
+const Click = styled.p`
+	font-size: 15px;
+	padding-left: 8px;
 `;
 
 export default Contact;
