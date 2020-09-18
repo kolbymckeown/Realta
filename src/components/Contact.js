@@ -34,7 +34,7 @@ function Contact() {
 						<InfoName>Sheila Whalen</InfoName>
 						<InfoEmail href={`mailto:swhaler@realtalw.com`}>
 							<HiOutlineMail style={{ fontSize: "25px", marginRight: "5px" }} />
-							swhaler@realtalw.com
+							swhalen@realtalw.com
 						</InfoEmail>
 						<InfoPhone>
 							<BiPhone style={{ fontSize: "25px", marginRight: "5px" }} />
