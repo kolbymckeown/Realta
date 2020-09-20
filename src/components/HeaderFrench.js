@@ -2,19 +2,19 @@ import React from "react";
 import styled from "styled-components";
 import logo from "../work.svg";
 import { useWindowSize } from "./helpers/Window";
-import { Link } from 'react-router-dom'
+import { Link } from "react-router-dom";
 
-function Header() {
+function HeaderFrench() {
   const { isMobile } = useWindowSize();
   if (isMobile) {
     return (
       <WrapperM>
-        <TitleM>Realta || Logistics & Warehousing</TitleM>
+        <TitleM>Realta || Logistique & Entreposage</TitleM>
         <NavM>
           <AM href="#about">About</AM>
           <AM href="#products">Products</AM>
           <AM href="#contact">Contact</AM>
-          <LinkM to="/francais">Francais</LinkM>
+          <LinkM to="/">English</LinkM>
         </NavM>
       </WrapperM>
     );
@@ -23,7 +23,7 @@ function Header() {
     <>
       <Wrapper>
         <Title>
-          Realta <Logo src={logo} /> Logistics & Warehousing
+          Realta <Logo src={logo} /> Logistique & Entreposage
         </Title>
 
         <Nav>
@@ -31,12 +31,15 @@ function Header() {
           <A href="#about">About</A>
           <A href="#products">Products</A>
           <A href="#contact">Contact</A>
-          <LinkD to="/francais">Francais</LinkD>
+          <LinkD to="/">English</LinkD>
         </Nav>
       </Wrapper>
     </>
   );
 }
+
+export default HeaderFrench;
+
 // Desktop Styles
 const Wrapper = styled.div`
   display: flex;
@@ -93,7 +96,7 @@ const LinkM = styled(Link)`
 `;
 
 const LinkD = styled(Link)`
- text-decoration: none;
+  text-decoration: none;
   margin: 5px;
   font-size: 25px;
   margin-bottom: -20px;
@@ -122,5 +125,3 @@ const AM = styled.a`
   font-size: 15px;
   color: #39683c;
 `;
-
-export default Header;

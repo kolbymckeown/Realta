@@ -5,16 +5,16 @@ import { BiPhone } from "react-icons/bi";
 import { IconContext } from "react-icons";
 import { useWindowSize } from "./helpers/Window";
 
-function Contact() {
+function ContactFrench() {
   const { isMobile } = useWindowSize();
   if (isMobile) {
     return (
       <WrapperM>
-        <HeaderM id="contact">Contact Us</HeaderM>
+        <HeaderM id="contact">Contactez-Nous</HeaderM>
         <DivM>
           <InfoNameM>Sheila Whalen</InfoNameM>
           <Click>
-            Click on one of the links below to get in touch with us!
+		  	Cliquez sur l'un des liens ci-dessous pour nous contacter!
           </Click>
           <InfoM>
             <InfoEmailM href={`mailto:swhaler@realtalw.com`}>
@@ -34,7 +34,7 @@ function Contact() {
         value={{ color: "#39683c", verticalAlign: "middle", paddinTop: "5px" }}
       >
         <Wrapper>
-          <Header id="contact">Contact Us</Header>
+          <Header id="contact">Contactez-Nous</Header>
           <Div>
             <InfoName>Sheila Whalen</InfoName>
             <InfoEmail href={`mailto:swhaler@realtalw.com`}>
@@ -45,7 +45,7 @@ function Contact() {
               <BiPhone style={{ fontSize: "25px", marginRight: "5px" }} />
               (514) 733-3223
             </InfoPhone>
-          <Add>392 Dorval Ave, Suite 112, Dorval H9S 3H7</Add>
+			<Add>392 Dorval Ave, Suite 112, Dorval H9S 3H7</Add>
 
           </Div>
         </Wrapper>
@@ -53,6 +53,9 @@ function Contact() {
     </>
   );
 }
+
+export default ContactFrench;
+
 
 const Wrapper = styled.div`
   font-family: "Sora", sans-serif;
@@ -71,15 +74,11 @@ const InfoPhone = styled.p`
   list-style-type: none;
 `;
 
-const AddM = styled.p`
-
-`;
-
-const Add = styled.p`
-
-`;
-
 const InfoEmail = styled.a``;
+
+const AddM = styled.p``
+
+const Add = styled.p``
 
 const InfoName = styled.p`
   font-size: 25px;
@@ -128,4 +127,3 @@ const Click = styled.p`
   padding-left: 8px;
 `;
 
-export default Contact;
