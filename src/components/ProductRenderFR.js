@@ -15,7 +15,7 @@ const ProductRenderFR = () => {
           <WrapperM>
             <ProductM>
               <ProductNameM>{data.productName}</ProductNameM>
-              <ProductSubHeadM>Size: {data.productSubHead}</ProductSubHeadM>
+              <ProductSubHeadM>Format: {data.productSubHead}</ProductSubHeadM>
               <ProductImgM src={data.imgURL} />
               <ProductDescM>{data.productDesc}</ProductDescM>
             </ProductM>
@@ -29,7 +29,7 @@ const ProductRenderFR = () => {
         <Wrapper>
           <Product>
             <ProductName>{data.productName}</ProductName>
-            <ProductSubHead>Size: {data.productSubHead}</ProductSubHead>
+            <ProductSubHead>Format: {data.productSubHead}</ProductSubHead>
             <ProductImg src={data.imgURL} />
             <ProductDesc>{data.productDesc}</ProductDesc>
           </Product>
