@@ -18,7 +18,7 @@ function Contact() {
           </Click>
           <InfoM>
             <InfoEmailM href={`mailto:swhaler@realtalw.com`}>
-              swhaler@realtalw.com
+            swhalen@realtalw.com
             </InfoEmailM>
             <InfoPhoneM href={`tel:5147333223`}>(514) 733-3223</InfoPhoneM>
           </InfoM>
@@ -40,6 +40,7 @@ function Contact() {
             <InfoEmail href={`mailto:swhaler@realtalw.com`}>
               <HiOutlineMail style={{ fontSize: "25px", marginRight: "5px" }} />
               swhalen@realtalw.com
+              
             </InfoEmail>
             <InfoPhone>
               <BiPhone style={{ fontSize: "25px", marginRight: "5px" }} />

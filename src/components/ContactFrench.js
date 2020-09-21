@@ -14,17 +14,16 @@ function ContactFrench() {
         <DivM>
           <InfoNameM>Sheila Whalen</InfoNameM>
           <Click>
-		  	Cliquez sur l'un des liens ci-dessous pour nous contacter!
+            Cliquez sur l'un des liens ci-dessous pour nous contacter!
           </Click>
           <InfoM>
             <InfoEmailM href={`mailto:swhaler@realtalw.com`}>
-              swhaler@realtalw.com
+              swhalen@realtalw.com
             </InfoEmailM>
             <InfoPhoneM href={`tel:5147333223`}>(514) 733-3223</InfoPhoneM>
           </InfoM>
         </DivM>
         <AddM>392 Dorval Ave, Suite 112, Dorval H9S 3H7</AddM>
-
       </WrapperM>
     );
   }
@@ -45,8 +44,7 @@ function ContactFrench() {
               <BiPhone style={{ fontSize: "25px", marginRight: "5px" }} />
               (514) 733-3223
             </InfoPhone>
-			<Add>392 Dorval Ave, Suite 112, Dorval H9S 3H7</Add>
-
+            <Add>392 Dorval Ave, Suite 112, Dorval H9S 3H7</Add>
           </Div>
         </Wrapper>
       </IconContext.Provider>
@@ -55,7 +53,6 @@ function ContactFrench() {
 }
 
 export default ContactFrench;
-
 
 const Wrapper = styled.div`
   font-family: "Sora", sans-serif;
@@ -76,9 +73,9 @@ const InfoPhone = styled.p`
 
 const InfoEmail = styled.a``;
 
-const AddM = styled.p``
+const AddM = styled.p``;
 
-const Add = styled.p``
+const Add = styled.p``;
 
 const InfoName = styled.p`
   font-size: 25px;
@@ -126,4 +123,3 @@ const Click = styled.p`
   font-size: 15px;
   padding-left: 8px;
 `;
-
