@@ -10,10 +10,8 @@ function App() {
         <Route exact path="/">
           <English />
         </Route>
-      </Switch>
-      <Switch>
         <Route exact path="/francais">
-          {<French /> ? <French /> : 'Loading....'}
+          <French />
         </Route>
       </Switch>
     </Router>
