@@ -7,14 +7,10 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/">
-          <English />
-        </Route>
+        <Route exact path="/" component={English} />
       </Switch>
       <Switch>
-        <Route path="/francais">
-          <French />
-        </Route>
+        <Route exact path="/francais" component={French} />
       </Switch>
     </Router>
   );
