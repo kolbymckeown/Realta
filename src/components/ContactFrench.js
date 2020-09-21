@@ -23,7 +23,7 @@ function ContactFrench() {
             <InfoPhoneM href={`tel:5147333223`}>(514) 733-3223</InfoPhoneM>
           </InfoM>
         </DivM>
-        <AddM>392 Dorval Ave, Suite 112, Dorval H9S 3H7</AddM>
+        <AddM>392 Dorval Ave, Suite 112, Dorval, QC H9S 3H7</AddM>
       </WrapperM>
     );
   }
@@ -44,7 +44,7 @@ function ContactFrench() {
               <BiPhone style={{ fontSize: "25px", marginRight: "5px" }} />
               (514) 733-3223
             </InfoPhone>
-            <Add>392 Dorval Ave, Suite 112, Dorval H9S 3H7</Add>
+            <Add>392 Dorval Ave, Suite 112, Dorval, QC H9S 3H7</Add>
           </Div>
         </Wrapper>
       </IconContext.Provider>
