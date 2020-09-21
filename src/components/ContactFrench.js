@@ -73,7 +73,9 @@ const InfoPhone = styled.p`
 
 const InfoEmail = styled.a``;
 
-const AddM = styled.p``;
+const AddM = styled.p`
+  margin-left: 5px;
+`;
 
 const Add = styled.p``;
 

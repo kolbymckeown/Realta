@@ -11,9 +11,9 @@ function HeaderFrench() {
       <WrapperM>
         <TitleM>Realta || Logistique & Entreposage</TitleM>
         <NavM>
-          <AM href="#about">About</AM>
-          <AM href="#products">Products</AM>
-          <AM href="#contact">Contact</AM>
+          <AM href="#about">Découvrez-nous</AM>
+          <AM href="#products">Produits</AM>
+          <AM href="#contact">Contactez-Nous</AM>
           <LinkM to="/">English</LinkM>
         </NavM>
       </WrapperM>
@@ -27,10 +27,10 @@ function HeaderFrench() {
         </Title>
 
         <Nav>
-          <A href="#">Home</A>
-          <A href="#about">About</A>
-          <A href="#products">Products</A>
-          <A href="#contact">Contact</A>
+          <A href="#">Accueil</A>
+          <A href="#about">Découvrez-nous</A>
+          <A href="#products">Produits</A>
+          <A href="#contact">Contactez-Nous</A>
           <LinkD to="/">English</LinkD>
         </Nav>
       </Wrapper>
