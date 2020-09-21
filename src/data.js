@@ -40,7 +40,7 @@ export const DataFrench = {
 		imgURL:
 			"https://images-na.ssl-images-amazon.com/images/I/719EB7TFOJL._AC_SL1500_.jpg",
 		productDesc:
-		"Les lingettes individuelles pour écran sont parfaites pour les écrans de télévision, les ordinateurs de bureau et les écrans de moins de 32\". Fabriqué en tissu pré-humidifié approuvé pour l'aérospatiale avec une formule d'eau purifiée à 75%, le nettoyant doux pour écran élimine les résidus."
+		"Les lingettes individuelles pour écran sont parfaites pour les écrans de télévision, les ordinateurs portables et les écrans de moins de 32\". Fabriqué en tissu pré-humidifié approuvé pour l'aérospatiale avec une formule d'eau purifiée à 75%, le nettoyant doux pour écran élimine les résidus."
 	},
 	b:{
 		productName: "iCXL10",
