@@ -7,10 +7,14 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route exact path="/" component={English} />
+        <Route exact path="/">
+          <English />
+        </Route>
       </Switch>
       <Switch>
-        <Route exact path="/francais" component={French} />
+        <Route exact path="/francais">
+          {<French /> ? <French /> : 'Loading....'}
+        </Route>
       </Switch>
     </Router>
   );
