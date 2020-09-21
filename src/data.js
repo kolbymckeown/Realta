@@ -56,7 +56,7 @@ export const DataFrench = {
 		imgURL:
 			"https://cdn.shopify.com/s/files/1/2440/4149/products/iCXL70IPA24_Count_Wipe-In_ENG_900x.jpg?v=1594407836",
 		productDesc:
-		"Lingettes nettoyantes contenant de l'alcool isopropylique à 70% pour une utilisation sur des appareils et des surfaces extra-larges tels que les écrans d'ordinateurs portables et de bureau, les écrans tactiles, les écrans automobiles, les écrans d'aviation, les tableaux blancs, les écrans de télévision LCD LED OLED, Windows et plus"
+		"Lingettes nettoyantes contenant de l'alcool isopropylique à 70% pour une utilisation sur des appareils et des surfaces extra-larges tels que les écrans d'ordinateurs portables et de bureau, les écrans tactiles, les écrans automobiles, les écrans d'aviation, les tableaux blancs, les écrans de télévision LCD LED OLED, Windows et plus."
 	},
 	d: {
 		productName: "iCXL701PA50 70%",
